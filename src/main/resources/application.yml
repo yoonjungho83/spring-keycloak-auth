@@ -28,3 +28,7 @@ keycloak:
   urls:
     auth: http://${keycloak.domain}    
     userinfo : /realms/oauth2-demo-realm/protocol/openid-connect/userinfo
+    
+    
+server:
+  port: 9100    

@@ -12,6 +12,6 @@ public class ManagerController {
 	@GetMapping("/getSample")
 	public String getSample() {
 		
-		return "admin sample";
+		return "manager sample";
 	}
 }
